@@ -1,0 +1,33 @@
+li {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0;
+  padding: 4px 12px;
+  border-radius: 8px;
+  background-color: rgb(91, 137, 162);
+}
+
+.icon-check {
+  font-size: 20px;
+}
+
+.icon-check:hover {
+  cursor: pointer;
+}
+
+.icon-check-completed {
+  color: rgb(40, 178, 40);
+}
+
+.icon-delete {
+  font-size: 18px;
+}
+
+.icon-delete:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.text-complete {
+  text-decoration: line-through;
+}
